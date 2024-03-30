@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ============== LINK DO CDN DO FONT AWESOME ==================== -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <!-- ============== LINK DO CDN DO SWIPER JS ==================== -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      <!-- ============== LINK DO CSS PERSONALIZADO ==================== -->
+      <link rel="stylesheet" href="src/css/cadastro.css">
+      <!-- ============== TIUTLO DO WEBSITE ====================-->
+      <title>Woody’s hotel | Cadastro</title>
+   </head>
+</head>
+
+<body>
+   <!-- ============================ BARRA DE NAVEGAÇÃO ============================ -->
+   <header class="header">
+      <a href="../index.html" class="logo">Woody’s hotel</a>
+
+      <nav class="navbar">
+         <a href="../index.html">MENU</a>
+         <a href="../index.html">SOBRE</a>
+         <a href="../index.html">QUARTOS</a>
+         <a href="Redirecionando2.html">CANCELAMENTO</a>
+         <a href="#" id="logins">LOGIN</a>
+      </nav>
+
+      <form>
+         <input type="text" name="search" placeholder="Pesquisar">
+         <input class="buscar" type="submit" value="Buscar">
+      </form>
+
+      <div class="fas fa-bars" id="menu-btn"></div>
+
+
+      <form action="" class="login-form">
+         <h3>Entrar na conta</h3>
+         <input type="email" placeholder="Entrar com seu email" class="box">
+         <input type="password" placeholder="Entrar com sua senha" class="box">
+         <div class="remember">
+            <input type="checkbox" name="" id="remember">
+            <label for="remember-me">Lembre-se</label>
+            <a href="cadastro.html" class="regi">Registra-se</a>
+         </div>
+         <a href="../server/admistrador.html" class="btns">
+            <span class="text text-1">Entrar</span>
+         </a>>
+      </form>
+   </header>
+   <!-- ============================ FIM BARRA DE NAVEGAÇÃO ============================ -->
+
+   <!-- ============================ ÁREA DE CADASTRO ============================ -->
+
+   <div class="main-login">
+      <div class="left-login">
+         <img src="src/img/hotel.png" class="left-login-image" alt="logo">
+      </div>
+      <div class="right-login">
+         <div class="card-login">
+            <h1>Área de cadastro</h1>
+            <div class="textfield">
+               <label class="usuario1" for="usuario">Usuário</label>
+               <input class="senha1" type="text" name="usuario" placeholder="Usário">
+            </div>
+            <div class="textfield">
+               <label class="usuario1" for="senha">Senha</label>
+               <input class="senha1" type="text" name="senha" placeholder="Senha">
+            </div>
+            <div class="task1">
+               <a href="../index.html" class="task1">Login</a><br>
+               <a href="#popup" class="task2">Pólitica é privacidade</a>
+            </div>
+
+            <div id="popup" class="overlay">
+               <div class="popup">
+
+                  <h3 class="policy-title">Política de cancelamento de reserva</h3>
+                  <li>Os pedidos de cancelamento ou alteração deverão ser encaminhados por escrito, diretamente ao setor de reservas por e-mail ari@pousadapinhapinhao.com.br.</li>
+                 
+                  <h3 class="policy-title">Reservas</h3>
+                  <li>(De acordo com a Deliberação Normativa n° 165/95 da Embratur)</p>
+                  <li>Não devolvemos valores pagos como garantia de reserva, como descrito abaixo, serão transformados em crédito para outra data.</li>
+                  <li>Em caso de saída antecipada das diárias contratadas, o valor do débito deverá ser pago integralmente.</li>
+                  <li>A reserva é feita mediante pagamento de 50% do valor total das diárias. Em seguida, uma confirmação é enviada por e-mail ou fax.</li>
+                  <li>Considera-se reserva efetivada somente após a comprovação do depósito referente a 50% do valor global do pacote combinado. O pagamento restante é feito no ato do check-in, na chegada.</li>
+                  <li>Desistência sem cancelamento: "no show"</li>
+                  <li>O não comparecimento sem comunicação prévia por escrito nos prazos descritos neste documento, na data prevista de chegada, será considerado "no-show" (desistência sem cancelamento). A vaga permanecerá disponível por 12 horas, a partir do horário de entrada.</li>
+                  <li>Após este período, a reserva será cancelada (com retenção de 100% do valor pago), disponibilizando a vaga para outro interessado. NÃO HAVERÁ RESTITUIÇÃO DO VALOR PAGO PARA RESERVA NEM CRÉDITO PARA OUTRA DATA.</li>
+                 
+                  <h3 class="policy-title">Desistência após entrada</h3>
+                  <li>A desistência da estadia após a efetivação do check-in, na entrada na pousada, assim como a saída antecipada, principalmente por motivo de mudança de tempo, ou por qualquer outro motivo NÃO DARÁ DIREITO A QUALQUER TIPO DE RESTITUIÇÃO, REEMBOLSO EM DINHEIRO OU CRÉDITO EM NOVAS DIÁRIAS, acarretando a perda total da quantia paga pelo pacote da hospedagem ou diária. Havendo necessidade de cancelamento da reserva ou alteração na data da hospedagem, o cliente deverá comunicar a pousada por escrito, não sendo aceitos cancelamentos ou alterações feitos por telefone. Esse comunicado deverá ser enviado por fax ou por e-mail. Observação: A alteração de datas da reserva sempre deverá respeitar a disponibilidade de vagas da pousada e datas concordadas por esta. Em datas especiais, não faremos alterações, principalmente em pacotes de NATAL, REVEILLON, CARNAVAL, FERIADOS PROLONGADOS E DATAS FESTIVAS.</li>
+                  
+                  <h3 class="policy-title">Cancelamento de reservas durante a semana e finais de semana</h3>
+                  <ol class="policy-list">
+                    <li>Em caso de cancelamento, o valor depositado na confirmação da reserva não será devolvido em dinheiro, mas sim em crédito para hospedagem.</li>
+                    <li>Até 07 (SETE) dias prévios da data da hospedagem, o hóspede terá o crédito (hospedagem) no valor integral antecipado, desde que escolha uma nova data no ato do cancelamento.</li>
+                    <li>Menos de 07 (SETE) dias prévios da data de hospedagem, o cliente não terá direito ao crédito (hospedagem).</li>
+                  </ol>
+
+                  <h3 class="policy-title">Cancelamento de reservas em períodos de feriados prolongados e férias</h3>
+                  <ol class="policy-list">
+                    <li>Em caso de cancelamento, o valor depositado na confirmação da reserva não será devolvido em dinheiro, mas sim em crédito para hospedagem, desde que a comunicação seja feita até 15 (quinze) dias prévios da data de hospedagem. O cliente terá o crédito (hospedagem) no valor integral antecipado, desde que escolha uma nova data no ato do cancelamento.</li>
+                    <li>Menos de 15 (quinze) dias prévios da data de hospedagem, o cliente não terá direito ao crédito (hospedagem).</li>
+                    <li>Todo crédito pendente deverá ser utilizado até 90 (noventa) dias contados da data do cancelamento da reserva.</li>
+                    <li>Havendo desistência parcial dos dias contratados e estando o cliente dentro do hotel, não será devolvida qualquer diferença do valor previamente pago, seja em dinheiro ou crédito para hospedagem.</li>
+                    <li>Se houver saldo pendente do pacote contratado, o cliente deverá quitá-lo na entrada do hotel.</li>
+                    <li>As reservas e diárias iniciam às 14h e terminam sempre ao 12h do dia seguinte, independente do horário do check-in. A permanência na pousada no dia do término da reserva após 12:00 (meio dia) será possível, sujeita à disponibilidade e estará sujeita a cobrança de outra diária ou um percentual.</li>
+                  </ol>
+
+                 <a class="close" href="#">&times;</a>
+               </div>
+            </div>
+            <button class="btn-login">Registra-se</button>
+         </div>
+      </div>
+   </div>
+
+   <!-- ============================ FIM ÁREA DE CADASTRO ============================ -->
+
+      <!-- ============================ FOOTER DO WEBSITE ============================ -->
+      <section class="footer">
+
+         <div class="box-container">
+   
+            <div class="box">
+               <h3>Informações de contato</h3>
+               <a href="#"> <i class="fas fa-phone"></i> +55 (41) 93259-5542</a>
+               <a href="#"> <i class="fas fa-phone"></i> +55 (11) 92569-2532</a>
+               <a href="#"> <i class="fas fa-envelope"></i> Woodyscontact@gmail.com.br</a>
+               <a href="#"> <i class="fas fa-map"></i> Centro, Curitiba 999</a>
+            </div>
+   
+            <div class="box">
+               <h3>Links Rápidos</h3>
+               <a href="../index.html"> <i class="fas fa-arrow-right"></i> Menu</a>
+               <a href="#"> <i class="fas fa-arrow-right"></i> Sobre</a>
+               <a href="#"> <i class="fas fa-arrow-right"></i> Contato</a>
+               <a href="../index.html"> <i class="fas fa-arrow-right"></i> Quartos</a>
+               <a href="cadastro.html"> <i class="fas fa-arrow-right"></i> Cadastro</a>
+            </div>
+   
+            <div class="box">
+               <h3>Links extras</h3>
+               <a href="#popup"> <i class="fas fa-arrow-right"></i> Politica de reembolso</a>
+               <a href="cancelamento.html"> <i class="fas fa-arrow-right"></i> Cancelamento de quarto</a>
+               <a href="#"> <i class="fas fa-arrow-right"></i> Segurança</a>
+               <a href="#"> <i class="fas fa-arrow-right"></i> Trabalhe com nos</a>
+               <a href="#"> <i class="fas fa-arrow-right"></i> Serviço de limpeza</a>
+            </div>
+   
+         </div>
+   
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fa-brands fa-whatsapp"></a>
+         </div>
+   
+         <div class="credit">&copy; copyright @ 2023 by <span>Woody’s</span></div>
+   
+      </section>
+   
+      <!-- ============================ FIM DO FOOTER ============================ -->
+   
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="src/js/cadastro.js"></script>
+   <script src="../src/js/main.js"></script>
+</body>
